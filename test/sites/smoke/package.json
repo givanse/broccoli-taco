@@ -1,0 +1,13 @@
+{
+  "name": "broccoli-taco-smoke-test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "broccoli-asset-rev": "^2.5.0",
+    "broccoli-clean-css": "^1.1.0",
+    "broccoli-sass": "^0.7.0",
+    "broccoli-taco": "^1.0.0",
+    "broccoli-uglify-sourcemap": "^1.5.1",
+    "broccoli-watchify": "^1.0.1"
+  }
+}

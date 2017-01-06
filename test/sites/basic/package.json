@@ -8,7 +8,7 @@
     "broccoli-clean-css": "^1.1.0",
     "broccoli-fingerprint": "0.0.4",
     "broccoli-sass": "0.7.0",
-    "broccoli-taco": "0.0.8",
+    "broccoli-taco": "^1.0.0",
     "broccoli-uglify-js": "^0.1.3"
   }
 }
