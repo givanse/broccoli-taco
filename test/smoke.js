@@ -46,9 +46,9 @@ describe('broccoli-taco build <destination>', function () {
 
     context('HTML', function () {
       it('builds the index page', test.contain('indexHTML', 'PAGES/INDEX'));
-      //it('builds with delfault layout', test.contain('indexHTML', 'LAYOUTS/DEFAULT'));
+      it('builds with delfault layout', test.contain('indexHTML', 'LAYOUTS/DEFAULT'));
 
-      //it('builds with partials', test.contain('indexHTML', 'PARTIALS/NAV'));
+      it('builds with partials', test.contain('indexHTML', 'PARTIALS/NAV'));
 
       it('includes site.css on index page', test.contain('indexHTML', '<link href="/site'));
       it('includes page.css on index page', test.contain('indexHTML', '<link href="/page'));
